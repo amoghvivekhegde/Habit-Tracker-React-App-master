@@ -1,0 +1,32 @@
+.track-ctn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 5px solid red; */
+  justify-content: center;
+}
+
+.track-habit {
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+.track-habit h1 {
+  margin: 0;
+  display: block;
+}
+.track-list {
+  text-align: left;
+}
+/* .action-ctn {
+  display: none;
+} */
+.track-list .action-ctn {
+  display: none;
+}
+.track-list:hover .action-ctn {
+  display: block;
+}
+#day-ctn:hover {
+  cursor: pointer;
+}
